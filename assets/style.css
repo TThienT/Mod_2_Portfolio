@@ -4,7 +4,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1%;
-  background-color: #808080;
+  background-color: rgb(98, 100, 75);
   color: black;
 }
 
@@ -36,9 +36,10 @@ p {
 /* banner */
 .banner {
   background-image: url(../assets/Images/BANNER_img.jpg);
+  border: 5px dashed rgb(98, 100, 75);
   max-width: 100%;
   margin: 0px;
-  background-size: cover;
+  background-size:cover;
   height: 150px;
   display: flex;
   justify-content: flex-end;
@@ -48,14 +49,14 @@ p {
 .subtitle {
   padding: 5px;
   color: white;
-  background-color: black;
+  background-color: rgba(98, 100, 75, 0.637);
   margin: 20px;
   font-size: 10px;
 }
 
 main,
 footer {
-  background-color: #BC8F8F;
+  background-color: #a8a08a;
 }
 
 img {
@@ -93,7 +94,7 @@ img {
 }
 
 .mainCard {
-  border: 5px solid rgb(4, 8, 9);
+  border: 5px solid rgb(98, 100, 75);
   min-height: 250px;
   padding: 5px;
 }
@@ -122,7 +123,7 @@ img {
 }
 
 .miniCard {
-  border: 5px solid rgb(4, 8, 9);
+  border: 5px solid rgb(98, 100, 75);
   margin: auto;
   margin-bottom: 20px;
   padding: 5px;
@@ -159,7 +160,7 @@ img {
 .cardHeader {
   text-align: left;
   color: white;
-  background-color: rgb(5, 8, 7);
+  background-color: rgba(98, 100, 75, 0.733);
   padding: 4px;
   margin-left: -6px;
   position: absolute;
@@ -168,13 +169,13 @@ img {
 
 /* footer */
 .footerNav a {
-  color: whitesmoke;
+  color: rgb(73, 66, 170);
   font-weight: bold;
   text-decoration: none;
 }
 
 .footerNav a:hover {
-  color: rgb(36, 31, 31);
+  color: rgb(71, 0, 71);
 }
 
 /* media queries */
