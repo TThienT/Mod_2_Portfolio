@@ -35,7 +35,7 @@ p {
 }
 /* banner */
 .banner {
-  background-image: url(/assets/Images/BANNER_img.jpg);
+  background-image: url(../assets/Images/BANNER_img.jpg);
   max-width: 100%;
   margin: 0px;
   background-size: cover;
@@ -99,7 +99,7 @@ img {
 }
 
 #card1 {
-  background-image: url(/assets/Images/SURF_REPORT_img.jpg);
+  background-image: url(../assets/Images/SURF_REPORT_img.jpg);
   position: relative;
 }
 
@@ -152,7 +152,7 @@ img {
 }
 
 #card5 {
-  background-image: url(/assets/Images/RUN_BUD_img.jpg);
+  background-image: url(../assets/Images/RUN_BUD_img.jpg);
   background-size: cover;
 }
 
