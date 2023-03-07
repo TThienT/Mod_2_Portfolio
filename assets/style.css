@@ -1,0 +1,194 @@
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #808080;
+  color: black;
+}
+
+/* navigation bar */
+nav ul {
+  display: flex;
+  min-width: 300px;
+}
+
+nav a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+li a {
+  font-size: 125%;
+  padding: 5px;
+  margin: 5px;
+}
+
+p {
+  font-size: larger;
+}
+/* banner */
+.banner {
+  background-image: url(/assets/Images/BANNER_img.jpg);
+  max-width: 100%;
+  margin: 0px;
+  background-size: cover;
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.subtitle {
+  padding: 5px;
+  color: white;
+  background-color: black;
+  margin: 20px;
+  font-size: 10px;
+}
+
+main,
+footer {
+  background-color: #BC8F8F;
+}
+
+img {
+  width: 33%;
+  padding: 5px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+/* main contents */
+.row {
+  display: flex;
+  padding: 1%;
+}
+
+.title {
+  padding: 5px;
+  border-right: 3px solid;
+  min-width: 198px;
+  text-align: right;
+}
+
+.details {
+  width: 100%;
+  margin: 10px;
+  padding: 5px;
+}
+
+#about-me-details {
+  margin-left: 26px;
+}
+
+.projects {
+  min-width: 100%;
+}
+
+.mainCard {
+  border: 5px solid rgb(4, 8, 9);
+  min-height: 250px;
+  padding: 5px;
+}
+
+#card1 {
+  background-image: url(/assets/Images/SURF_REPORT_img.jpg);
+  position: relative;
+}
+
+.mainCard:hover {
+  opacity: 0.3;
+}
+
+.small-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-card-wrapper {
+  padding: 5px;
+  margin: 10px;
+}
+
+.mini-inner {
+  width: 50%;
+}
+
+.miniCard {
+  border: 5px solid rgb(4, 8, 9);
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 5px;
+  margin: 16px;
+  position: relative;
+  min-width: 50%;
+  min-height: 250px;
+}
+
+.miniCard:hover {
+  opacity: 0.3;
+}
+
+#card2 {
+  background-image: url(../assets/Images/LED_WAL_img.jpg);
+  background-size: cover;
+}
+
+#card3 {
+  background-image: url(../assets/Images/CALC_Img.jpeg);
+  background-size: cover;
+}
+
+#card4 {
+  background-image: url(../assets/Images/PASTEL_PUZ_img.jpg);
+  background-size:contain;
+}
+
+#card5 {
+  background-image: url(/assets/Images/RUN_BUD_img.jpg);
+  background-size: cover;
+}
+
+.cardHeader {
+  text-align: left;
+  color: white;
+  background-color: rgb(5, 8, 7);
+  padding: 4px;
+  margin-left: -6px;
+  position: absolute;
+  bottom: 16px;
+}
+
+/* footer */
+.footerNav a {
+  color: whitesmoke;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footerNav a:hover {
+  color: rgb(36, 31, 31);
+}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction:column;
+  }
+  .mini-inner {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mini-inner {
+    width: 50%;
+  }
+}
