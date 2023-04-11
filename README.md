@@ -5,7 +5,8 @@
 A portfolio website provide potential future clients an oportunity to view my past and current works. Created using HTML, and CSS.
 
 ## Installation
-//link for website
+
+https://tthient.github.io/Thien_Portfolio/
 
 ## Credits
 
